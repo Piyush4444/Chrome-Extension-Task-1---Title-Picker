@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Title Picker",
+  "description": "Current Tab Title Picker Extension",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "/images/title.png",
+    "32": "/images/title.png",
+    "48": "/images/title.png"
+  },
+  "action": {
+    "default_popup": "/popup/popup.html"
+  }
+}
